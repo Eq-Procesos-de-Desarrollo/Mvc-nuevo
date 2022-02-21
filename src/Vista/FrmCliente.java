@@ -138,10 +138,15 @@ public class FrmCliente extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JTextField jTextField1;
 =======
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
 >>>>>>> adc92ef550d638de727631b2eed042a71a074c0d
+=======
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton2;
+>>>>>>> 49be5bd12ef7a58201aee0b73a10afdafb670863
     // End of variables declaration//GEN-END:variables
 }

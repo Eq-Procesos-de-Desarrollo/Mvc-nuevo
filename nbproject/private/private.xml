@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
@@ -9,6 +10,20 @@
         </group>
     </open-files>
 </project-private>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/marco/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Controlador/ControladorCliente.java</file>
+            <file>file:/C:/Users/marco/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/FrmCliente.java</file>
+        </group>
+    </open-files>
+</project-private>
+<<<<<<< HEAD
+=======
+>>>>>>> 49be5bd12ef7a58201aee0b73a10afdafb670863
 =======
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
@@ -27,3 +42,4 @@
     </open-files>
 </project-private>
 >>>>>>> d896b90cbe91f41ef52ea6d081217379664ed258
+>>>>>>> adc92ef550d638de727631b2eed042a71a074c0d
