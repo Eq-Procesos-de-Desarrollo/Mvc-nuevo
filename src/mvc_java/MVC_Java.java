@@ -31,7 +31,6 @@ public class MVC_Java {
         objVista.setVisible(true);
         
         
-        
     }
     
 }
