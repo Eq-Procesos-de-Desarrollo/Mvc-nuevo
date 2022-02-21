@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Controlador;
 
 /**
@@ -9,17 +6,17 @@ package Controlador;
  * @author brianandreirosasmendoza
  */
 import Modelo.MDB;
-import Vista.FrmVista;
+import Vista.FrmCliente;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 public class ControladorCliente implements ActionListener{
-  private FrmVista _view; //el formulario 
+  private FrmCliente _view; //el formulario 
   private MDB _model;//el manejador de bases de datos
 
     
-    public ControladorMDB(FrmVista view, MDB model){
+    public ControladorMDB(FrmCliente view, MDB model){
        this._model=model;
        this._view=view;
         this._view.cmdAlta.addActionListener(this);//se obtiene el control sobre el botón alta del formulario
