@@ -35,7 +35,7 @@ public class nuevo extends javax.swing.JFrame {
 
         jLabel1.setText("Nombre:");
 
-        jLabel2.setText("Usuario");
+        jLabel2.setText("Usuario de el cliente:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -44,6 +44,7 @@ public class nuevo extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(43, 43, 43)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                     .addComponent(jLabel2)
                     .addComponent(jLabel1))
                 .addGap(119, 119, 119)
@@ -51,6 +52,11 @@ public class nuevo extends javax.swing.JFrame {
                     .addComponent(jTextIntroduceTexto, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE)
                     .addComponent(jTextColocarNombre))
                 .addContainerGap(132, Short.MAX_VALUE))
+=======
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addContainerGap(248, Short.MAX_VALUE))
+>>>>>>> adf735be4e021f2fd619154bd5d06fb2ff1c595e
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

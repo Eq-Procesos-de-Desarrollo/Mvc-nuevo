@@ -29,12 +29,16 @@
                   <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
+<<<<<<< HEAD
               <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jTextIntroduceTexto" pref="59" max="32767" attributes="0"/>
                   <Component id="jTextColocarNombre" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="132" max="32767" attributes="0"/>
+=======
+              <EmptySpace pref="248" max="32767" attributes="0"/>
+>>>>>>> adf735be4e021f2fd619154bd5d06fb2ff1c595e
           </Group>
       </Group>
     </DimensionLayout>
@@ -64,7 +68,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Usuario"/>
+        <Property name="text" type="java.lang.String" value="Usuario de el cliente:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextIntroduceTexto">
