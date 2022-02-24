@@ -29,7 +29,7 @@ public class FrmCliente extends javax.swing.JFrame {
         lblNombre = new javax.swing.JLabel();
         lblUsuario = new javax.swing.JLabel();
         lblPassword = new javax.swing.JLabel();
-        txtNombre = new javax.swing.JTextField();
+        txtNombre1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -50,7 +50,7 @@ public class FrmCliente extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(lblNombre)
                         .addGap(73, 73, 73)
-                        .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(lblUsuario))
                 .addContainerGap(154, Short.MAX_VALUE))
         );
@@ -60,7 +60,7 @@ public class FrmCliente extends javax.swing.JFrame {
                 .addGap(45, 45, 45)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblNombre)
-                    .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(37, 37, 37)
                 .addComponent(lblUsuario)
                 .addGap(38, 38, 38)
@@ -110,6 +110,6 @@ public class FrmCliente extends javax.swing.JFrame {
     private javax.swing.JLabel lblNombre;
     private javax.swing.JLabel lblPassword;
     private javax.swing.JLabel lblUsuario;
-    private javax.swing.JTextField txtNombre;
+    public javax.swing.JTextField txtNombre1;
     // End of variables declaration//GEN-END:variables
 }
