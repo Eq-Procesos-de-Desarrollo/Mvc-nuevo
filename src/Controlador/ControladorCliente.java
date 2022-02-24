@@ -16,7 +16,7 @@ public class ControladorCliente implements ActionListener{
   private MDB _model;//el manejador de bases de datos
 
     
-    public ControladorMDB(FrmCliente view, MDB model){
+    public ControladorCliente(Frmcliente view, MDB model){
        this._model=model;
        this._view=view;
         this._view.cmdAlta.addActionListener(this);//se obtiene el control sobre el botón alta del formulario

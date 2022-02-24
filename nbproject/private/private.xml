@@ -3,10 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/FrmCliente.java</file>
             <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/FrmVista.java</file>
             <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Controlador/ControladorCliente.java</file>
             <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/nuevo.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Controlador/ControladorCliente.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Modelo/MDBExtendido.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Vista/FrmVista.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Modelo/Tester.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Controlador/ControladorMDB.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Vista/nuevo.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Vista/FrmCliente.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/Modelo/MDB.java</file>
+            <file>file:/Users/brianandreirosasmendoza/NetBeansProjects/MVC_Java/src/mvc_java/MVC_Java.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/FrmCliente.java</file>
+            <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Vista/FrmVista.java</file>
+            <file>file:/C:/Users/lenom/OneDrive/Documentos/NetBeansProjects/Mvc-nuevo/src/Controlador/ControladorCliente.java</file>
+=======
+            <file>file:/C:/Users/Keila%20Torres/Documents/NetBeansProjects/Mvc-nuevo/src/Vista/nuevo.java</file>
+            <file>file:/C:/Users/Keila%20Torres/Documents/NetBeansProjects/Mvc-nuevo/src/Vista/FrmVista.java</file>
+            <file>file:/C:/Users/Keila%20Torres/Documents/NetBeansProjects/Mvc-nuevo/src/Vista/FrmCliente.java</file>
+>>>>>>> adf735be4e021f2fd619154bd5d06fb2ff1c595e
+>>>>>>> e8c55d3c063517dc82bbd8a3fc8fa5a6919e111a
+>>>>>>> e421a3d59b8a8a812ce017e438d4a9e23312d503
         </group>
     </open-files>
 </project-private>
