@@ -51,6 +51,6 @@ _view.txtDireccion.setText(null);
 _view.txtCivil.setText(null);
 _view.txtCelular.setText(null);
 _view.txtTelefono.setText(null);
-_view.txtMail.setText(null);
+_view.txtMail.setText(null);//Holis, los quiero mucho
 }
 }
