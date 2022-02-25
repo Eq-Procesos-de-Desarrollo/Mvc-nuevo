@@ -1,4 +1,7 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
 package Vista;
 
 /**
@@ -23,127 +26,184 @@ public class FrmCliente extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-<<<<<<< HEAD
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        cjtexto2 = new javax.swing.JTextField();
-        cjtexto1 = new javax.swing.JTextField();
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
-=======
         lblNombre = new javax.swing.JLabel();
-        lblUsuario = new javax.swing.JLabel();
-        lblPassword = new javax.swing.JLabel();
-        txtNombre1 = new javax.swing.JTextField();
-        jTextField1Usuario = new javax.swing.JTextField();
-        jTextField2Password = new javax.swing.JTextField();
->>>>>>> 6c1fb5b157c9ff90c1502c3035990450372802b0
+        lblApellidoP = new javax.swing.JLabel();
+        lblEdad = new javax.swing.JLabel();
+        lblDireccion = new javax.swing.JLabel();
+        lblCivil = new javax.swing.JLabel();
+        txtNombre = new javax.swing.JTextField();
+        txtApellidoP = new javax.swing.JTextField();
+        txtApellidoM = new javax.swing.JTextField();
+        txtEdad = new javax.swing.JTextField();
+        lblApellidoM = new javax.swing.JLabel();
+        txtDireccion = new javax.swing.JTextField();
+        txtCivil = new javax.swing.JTextField();
+        cmdEliminar = new javax.swing.JButton();
+        cmdConfirmar = new javax.swing.JButton();
+        lblCelular = new javax.swing.JLabel();
+        lblTelefono = new javax.swing.JLabel();
+        lblMail = new javax.swing.JLabel();
+        txtCelular = new javax.swing.JTextField();
+        txtTelefono = new javax.swing.JTextField();
+        txtMail = new javax.swing.JTextField();
+        lblTitulo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        lblNombre.setText("Nombre:");
+        lblNombre.setText("Nombre(s)");
 
-        lblUsuario.setText("Usuario:");
+        lblApellidoP.setText("Apellido paterno");
 
-        lblPassword.setText("Password");
+        lblEdad.setText("Edad");
 
-        jTextField2Password.addActionListener(new java.awt.event.ActionListener() {
+        lblDireccion.setText("Dirección");
+
+        lblCivil.setText("Estado civil");
+
+        txtNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2PasswordActionPerformed(evt);
+                txtNombreActionPerformed(evt);
             }
         });
 
-<<<<<<< HEAD
-        jButton2.setText("Eliminar");
-
-        cjtexto2.addActionListener(new java.awt.event.ActionListener() {
+        txtApellidoM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cjtexto2ActionPerformed(evt);
+                txtApellidoMActionPerformed(evt);
             }
         });
 
-        cjtexto1.addActionListener(new java.awt.event.ActionListener() {
+        lblApellidoM.setText("Apellido materno");
+
+        txtCivil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cjtexto1ActionPerformed(evt);
+                txtCivilActionPerformed(evt);
             }
         });
 
-=======
->>>>>>> 6c1fb5b157c9ff90c1502c3035990450372802b0
+        cmdEliminar.setText("Eliminar");
+
+        cmdConfirmar.setText("Confirmar");
+
+        lblCelular.setText("Numero telefónico");
+
+        lblTelefono.setText("Teléfono de casa");
+
+        lblMail.setText("e-mail");
+
+        txtCelular.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCelularActionPerformed(evt);
+            }
+        });
+
+        lblTitulo.setFont(new java.awt.Font("Dialog", 0, 25)); // NOI18N
+        lblTitulo.setText("Clientes");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-<<<<<<< HEAD
-                .addGap(132, 132, 132)
+                .addGap(31, 31, 31)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblNombre)
+                    .addComponent(lblCivil)
+                    .addComponent(lblApellidoP)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(lblEdad, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lblDireccion, javax.swing.GroupLayout.Alignment.LEADING))
+                    .addComponent(lblApellidoM)
+                    .addComponent(lblCelular)
+                    .addComponent(lblMail)
+                    .addComponent(lblTelefono))
+                .addGap(169, 169, 169)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(cjtexto1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cjtexto2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(89, Short.MAX_VALUE))
+                    .addComponent(txtTelefono, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtCelular, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtNombre, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtApellidoP, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtApellidoM, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addComponent(cmdEliminar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(cmdConfirmar))
+                    .addComponent(txtCivil, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtDireccion, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtEdad, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtMail))
+                .addGap(95, 95, 95))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(211, 211, 211)
+                .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(81, Short.MAX_VALUE)
-                .addComponent(cjtexto1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(cjtexto2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(51, 51, 51)
-=======
-                .addGap(40, 40, 40)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblNombre)
-                    .addComponent(lblUsuario)
-                    .addComponent(lblPassword))
-                .addGap(70, 70, 70)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(txtNombre1, javax.swing.GroupLayout.DEFAULT_SIZE, 86, Short.MAX_VALUE)
-                    .addComponent(jTextField1Usuario)
-                    .addComponent(jTextField2Password))
-                .addContainerGap(154, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(45, 45, 45)
->>>>>>> 6c1fb5b157c9ff90c1502c3035990450372802b0
+                .addGap(24, 24, 24)
+                .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNombre)
+                            .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(52, 52, 52)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblApellidoP)
+                            .addComponent(txtApellidoP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(49, 49, 49)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtApellidoM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblApellidoM))
+                        .addGap(47, 47, 47)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtEdad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblEdad))
+                        .addGap(44, 44, 44)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblDireccion)
+                            .addComponent(txtDireccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(33, 33, 33)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblCivil, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCivil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(43, 43, 43)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblCelular)
+                            .addComponent(txtCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(40, 40, 40)
+                        .addComponent(lblTelefono))
+                    .addComponent(txtTelefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(42, 42, 42)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lblMail)
+                    .addComponent(txtMail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(56, 56, 56)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblNombre)
-                    .addComponent(txtNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(34, 34, 34)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblUsuario)
-                    .addComponent(jTextField1Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblPassword)
-                    .addComponent(jTextField2Password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(127, Short.MAX_VALUE))
+                    .addComponent(cmdEliminar)
+                    .addComponent(cmdConfirmar))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField2PasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2PasswordActionPerformed
+    private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2PasswordActionPerformed
+    }//GEN-LAST:event_txtNombreActionPerformed
 
-    private void cjtexto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cjtexto2ActionPerformed
+    private void txtApellidoMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtApellidoMActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cjtexto2ActionPerformed
+    }//GEN-LAST:event_txtApellidoMActionPerformed
 
-    private void cjtexto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cjtexto1ActionPerformed
+    private void txtCivilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCivilActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cjtexto1ActionPerformed
+    }//GEN-LAST:event_txtCivilActionPerformed
+
+    private void txtCelularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCelularActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCelularActionPerformed
 
     /**
      * @param args the command line arguments
@@ -181,20 +241,26 @@ public class FrmCliente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< HEAD
-    public javax.swing.JTextField cjtexto1;
-    public javax.swing.JTextField cjtexto2;
-    public javax.swing.JButton jButton1;
-    public javax.swing.JButton jButton2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
-=======
-    public javax.swing.JTextField jTextField1Usuario;
-    public javax.swing.JTextField jTextField2Password;
+    public javax.swing.JButton cmdConfirmar;
+    public javax.swing.JButton cmdEliminar;
+    private javax.swing.JLabel lblApellidoM;
+    private javax.swing.JLabel lblApellidoP;
+    private javax.swing.JLabel lblCelular;
+    private javax.swing.JLabel lblCivil;
+    private javax.swing.JLabel lblDireccion;
+    private javax.swing.JLabel lblEdad;
+    private javax.swing.JLabel lblMail;
     private javax.swing.JLabel lblNombre;
-    private javax.swing.JLabel lblPassword;
-    private javax.swing.JLabel lblUsuario;
-    public javax.swing.JTextField txtNombre1;
->>>>>>> 6c1fb5b157c9ff90c1502c3035990450372802b0
+    private javax.swing.JLabel lblTelefono;
+    private javax.swing.JLabel lblTitulo;
+    public javax.swing.JTextField txtApellidoM;
+    public javax.swing.JTextField txtApellidoP;
+    public javax.swing.JTextField txtCelular;
+    public javax.swing.JTextField txtCivil;
+    public javax.swing.JTextField txtDireccion;
+    public javax.swing.JTextField txtEdad;
+    public javax.swing.JTextField txtMail;
+    public javax.swing.JTextField txtNombre;
+    public javax.swing.JTextField txtTelefono;
     // End of variables declaration//GEN-END:variables
 }
